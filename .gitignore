@@ -1,0 +1,4 @@
+node_modules
+package-lock.json
+src/todaya
+src/todayta/data.json

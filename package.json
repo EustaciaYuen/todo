@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "hurl --test --glob \"tests/*.hurl\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7"
+  }
+}

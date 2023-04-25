@@ -1,0 +1,137 @@
+body {
+    height: 100vh;
+    width: 100 vh;
+}
+
+#dayRoot {
+    display: flex;
+    /* column-gap: 100px; */
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Inter',-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-top: 1px solid lightgrey;
+    line-height: 1em;
+    color: lightsalmon;
+}
+
+#label {
+    width: 50%;
+    font-weight: normal;
+    color: #666;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+    background: none;
+    font-family: 'Inter',-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: darkgrey;
+}
+
+button:hover {
+    color: lightsalmon;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 1%;
+    font-size: 40px;
+}
+
+#date {
+    height: 30px;
+    width: 20px;
+    border: none;
+}
+
+#date:hover {
+    border-bottom: 2px solid lightsalmon;
+}
+
+#time {
+    width: 29px;
+    border: none;
+    padding-bottom: 4px;
+}
+
+#time:hover {
+    border-bottom: 2px solid lightsalmon;
+}
+
+*:focus {
+    outline: none;
+}
+
+#todo {
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Inter',-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    color: darkgrey;    
+}
+
+#todo::placeholder {
+    /* opacity: 0.5; */
+    font-family: 'Inter',-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    color: lightgrey;    
+}
+
+#todo:hover {
+    border-bottom: 2px solid lightsalmon;
+}
+
+#todo:focus {
+    border-bottom: 2px solid lightsalmon;
+}
+
+#todos {
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.year {
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 1.2em;
+    margin-top: 5%;
+
+}
+
+.month {
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.week {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "TorstarDeckCondensed", Georgia, "Times New Roman", Times, serif;
+    line-height: 1.2em;
+    margin-top: 4%;
+}
+
+.day {
+    font-size:14px;
+    font-weight: 600;
+    border-bottom: 1px solid lightgrey;
+    font-family: 'Inter',-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    line-height: 1.2em;
+    margin-top: 3%;
+}
